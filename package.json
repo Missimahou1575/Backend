@@ -1,0 +1,23 @@
+{
+    "name": "Backend-gestion-panneau",
+    "version": "1.0.0",
+    "description": "Backend pour la gestion de panneau",
+    "main": "serveur.js",
+    "scripts": {
+        "start": "node serveur.js",
+        "dev": "nodemon serveur.js"
+    },
+    "author": "Jacob",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.20.2",
+        "cors": "^2.8.5",
+        "express": "^4.18.2",
+        "mongoose": "^8.13.2",
+        "websocket": "^1.0.35",
+        "ws": "^8.18.2"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.1"
+    }
+}
